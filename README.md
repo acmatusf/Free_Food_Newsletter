@@ -6,10 +6,10 @@ Free Food Newsletter is a web scraper that collects information about free food 
 1. [Installation]. 
 
    Type in the terminal: (remember to copy paste the whole line down there)  
-   git clone https://github.com/tma-nguyen/Free_Food_Newsletter.git. 
+   git clone https://github.com/tma-nguyen/Free_Food_Newsletter.git
 3. Run the requirements.txt file
 
-   By running: pip install -r requirements.txt. 
+   By running: pip install -r requirements.txt
 4. [Usage]
     
    scrape_selenium.py is use to get the raw data from the desired website then paste it into a text file.  
