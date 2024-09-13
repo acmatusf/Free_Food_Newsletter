@@ -24,5 +24,6 @@ chat_completion = client.chat.completions.create(
     ],
     model="llama3-8b-8192",
 )
-
-print(chat_completion.choices[0].message.content)
+summary = chat_completion.choices[0].message.content
+with open("summary.txt", "w") as summary_file:
+    summary_file.write(summary)
